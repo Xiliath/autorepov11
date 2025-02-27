@@ -1,0 +1,13 @@
+apiVersion: v2
+name: autoappv11
+description: Umbrella chart for autoAppV11 including Web API and CronJob
+type: application
+version: 0.0.1
+appVersion: 0.0.1
+dependencies:
+  - name: autoappv11.webapi
+    version: 0.0.1
+    repository: file://../autoappv11-webapi-chart
+  - name: autoappv11.cronjob
+    version: 0.0.1
+    repository: file://../autoappv11-cronjob-chart
