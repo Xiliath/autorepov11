@@ -52,6 +52,3 @@ jobs:
           charts_dir: charts
         env:
           CR_TOKEN: ${{ secrets.PACKAGE_SECRET }}
-          CR_OWNER: "deployment@automation.com"
-          CR_REPO: ${{ github.event.repository.name }}
-          CR_FORCE: "true"
