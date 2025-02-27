@@ -1,0 +1,4 @@
+charts:
+  - charts/autoappv11-umbrella-chart
+  - charts/autoappv11-webapi-chart
+  - charts/autoappv11-cronjob-chart
